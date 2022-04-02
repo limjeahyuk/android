@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResearchTwoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="질문 3. "
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="어떤 운동을 좋아하나요?"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:src="@drawable/image3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        >
+        <CheckBox
+            android:id="@+id/cb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="롱보드"
+            />
+        <CheckBox
+            android:id="@+id/cb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="달리기"
+            />
+        <CheckBox
+            android:id="@+id/cb_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="쿠키런"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="NEXT PAGE"
+        />
+
+</LinearLayout>

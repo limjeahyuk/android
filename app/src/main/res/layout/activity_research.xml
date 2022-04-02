@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResearchActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="질문 1. "
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진에 어울리는 단어를 선택하세요 (복수가능)"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:src="@drawable/image"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        >
+        <CheckBox
+            android:id="@+id/cb_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CUTE"
+            />
+        <CheckBox
+            android:id="@+id/cb_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEXY"
+            />
+        <CheckBox
+            android:id="@+id/cb_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HANDSOME"
+            />
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="NEXT PAGE"
+            />
+
+
+
+</LinearLayout>
