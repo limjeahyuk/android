@@ -26,6 +26,14 @@ public class ListCustomActivity extends AppCompatActivity {
         lv_data = findViewById(R.id.lv_data);
 
         list.add(new ListData("혁쨩","1004",true));
+        list.add(new ListData("환쨩","0915",false));
+        list.add(new ListData("준쨩","0202",true));
+        list.add(new ListData("모디파이","0504",false));
+        list.add(new ListData("중쨩","2002",false));
+        list.add(new ListData("스쿨","3333",true));
+        list.add(new ListData("재현","5959",true));
+        list.add(new ListData("주녕","0623",false));
+        list.add(new ListData("퍼플","2222",true));
 
         lv_data.setAdapter(new BaseAdapter() {
             @Override
@@ -53,7 +61,11 @@ public class ListCustomActivity extends AppCompatActivity {
 
                 tv_1.setText(list.get(i).getTv_1());
                 tv_2.setText(list.get(i).getTv_2());
-                if(list.get(i).)
+                if(list.get(i).getBle()){
+                    img.setImageResource(R.drawable.image);
+                }else{
+                    img.setImageResource(R.drawable.image2);
+                }
 
 
                 return view;

@@ -1,14 +1,18 @@
 package com.daelim.data;
 
 public class ListData {
-    String tv_1, tv_2;
-    Boolean bl;
+    private String tv_1, tv_2;
+    private Boolean bl;
 
     public ListData(String str, String str2, Boolean b){
         tv_1 = str;
         tv_2 = str2;
         bl = b;
     }
+
+    public void setTv_1(String str){ tv_1 = str;}
+    public void setTv_2(String str){ tv_2 = str;}
+    public void setBle(Boolean b){ bl = b;}
 
     public String getTv_1(){
         return tv_1;
