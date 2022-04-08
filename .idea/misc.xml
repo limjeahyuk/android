@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_list.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_list_custom.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_main.xml" value="0.10185185185185185" />
         <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_next.xml" value="0.10185185185185185" />
         <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_research.xml" value="0.22" />
@@ -11,6 +13,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_research_three.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_research_two.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/limjeahyuk/app/src/main/res/layout/list_custom_item.xml" value="0.2755208333333333" />
       </map>
     </option>
   </component>

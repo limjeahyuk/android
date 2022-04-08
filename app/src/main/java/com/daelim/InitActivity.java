@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.List;
+
 public class InitActivity extends AppCompatActivity {
 
     private InitActivity activity;
@@ -23,6 +25,7 @@ public class InitActivity extends AppCompatActivity {
         Button btn1 = findViewById(R.id.btn1);
         Button btn2 = findViewById(R.id.btn2);
         Button btn3 = findViewById(R.id.btn3);
+        Button btn4 = findViewById(R.id.btn4);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,6 +44,14 @@ public class InitActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(activity, ResearchActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity, ListActivity.class);
                 startActivity(intent);
             }
         });

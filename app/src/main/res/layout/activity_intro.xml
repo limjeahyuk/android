@@ -27,6 +27,12 @@
             android:text="GO Research"
             android:id="@+id/btn3"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List View"
+            android:id="@+id/btn4"/>
+
     </LinearLayout>
 
 </LinearLayout>

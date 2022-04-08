@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Limjeahyuk">
         <activity
+            android:name=".ListCustomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="false" />
+        <activity
             android:name=".ResearchThreeActivity"
             android:exported="false" />
         <activity
