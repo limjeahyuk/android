@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Limjeahyuk">
         <activity
+            android:name=".SheardPreferenceActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListCustomActivity"
             android:exported="false" />
         <activity

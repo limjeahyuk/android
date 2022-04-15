@@ -14,30 +14,43 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="계산기"
-            android:id="@+id/btn1"/>
+            android:text="@string/cal"
+            android:id="@+id/btn1"
+            android:textColor="@color/black"
+            />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Next"
-            android:id="@+id/btn2"/>
+            android:id="@+id/btn2"
+            android:textColor="@color/purple_200"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="GO Research"
-            android:id="@+id/btn3"/>
+            android:id="@+id/btn3"
+            android:textColor="@color/teal_200"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="List View"
-            android:id="@+id/btn4"/>
+            android:id="@+id/btn4"
+            android:textColor="@color/teal_700"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Custom List View"
-            android:id="@+id/btn5"/>
+            android:id="@+id/btn5"
+            android:textColor="@color/purple_700"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SheardPreferense test"
+            android:id="@+id/btn6"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
