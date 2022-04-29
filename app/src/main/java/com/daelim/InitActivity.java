@@ -1,6 +1,7 @@
 package com.daelim;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -25,6 +26,8 @@ public class InitActivity extends AppCompatActivity {
         Button btn4 = findViewById(R.id.btn4);
         Button btn5 = findViewById(R.id.btn5);
         Button btn6 = findViewById(R.id.btn6);
+        Button btn7 = findViewById(R.id.btn7);
+        Button btn8 = findViewById(R.id.btn8);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,6 +71,23 @@ public class InitActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(activity, SheardPreferenceActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_DIAL);
+                i.setData(Uri.parse("tel:01049274267"));
+                startActivity(i);
+            }
+        });
+
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(activity, WebActivity.class);
+                startActivity(i);
             }
         });
     }

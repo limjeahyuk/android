@@ -51,6 +51,18 @@
             android:text="SheardPreferense test"
             android:id="@+id/btn6"
             android:textColor="@color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALL"
+            android:id="@+id/btn7"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="web"
+            android:id="@+id/btn8"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
