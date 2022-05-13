@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.daelim">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Limjeahyuk"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".Musicservice"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity
             android:name=".WebActivity"
             android:exported="false" />

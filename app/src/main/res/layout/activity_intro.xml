@@ -64,6 +64,13 @@
             android:id="@+id/btn8"
             android:textColor="@color/white"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="service"
+            android:id="@+id/btn9"
+            android:textColor="@color/white"/>
+
     </LinearLayout>
 
 </LinearLayout>

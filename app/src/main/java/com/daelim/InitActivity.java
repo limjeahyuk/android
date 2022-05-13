@@ -28,6 +28,7 @@ public class InitActivity extends AppCompatActivity {
         Button btn6 = findViewById(R.id.btn6);
         Button btn7 = findViewById(R.id.btn7);
         Button btn8 = findViewById(R.id.btn8);
+        Button btn9 = findViewById(R.id.btn9);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,6 +88,13 @@ public class InitActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(activity, WebActivity.class);
+                startActivity(i);
+            }
+        });
+        btn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(activity, ServiceActivity.class);
                 startActivity(i);
             }
         });
